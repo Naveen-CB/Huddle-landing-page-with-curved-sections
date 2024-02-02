@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  
+</head>
+<body>
+  <!-- header -->
+  <header class="head">
+    <img src="images/logo.svg" alt="Logo of this website." class="head__img">
+    <button class="head__button">Try it free</button>
+  </header>
+
+  <!-- main -->
+  
+  <main>
+    <!-- section-1 -->
+    <section class="section-1">
+      <h1 class="section-1__h1">Build The Community Your Fans Will Love</h1>
+      <p class="section-1__p">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+      <button class="button">Get Started For Free</button>
+      
+      <figure>
+        <img src="images/screen-mockups.svg" alt="The image that is relevant to the near by text." class="section-1__img">
+      </figure>
+      
+      <div class="following">
+        <div class="com-msg">
+          <img src="images/icon-communities.svg" alt="communities-icon" class=" following__img following__img-1">
+          <p class="following__value">1.4k+</p>
+          <p class="following__title">Communities Formed</p>
+        </div>
+        <div class="com-msg">
+          <img src="images/icon-messages.svg" alt="messages-icon" class="following__img  following__img-2">
+          <p class="following__value">2.7m+</p>
+          <p class="following__title">Messages Sent</p>
+        </div>
+      </div>
+      
+    </section>
+    <!-- section-2 -->
+    <picture>
+      <source srcset="images/bg-section-top-mobile-1.svg" media="(max-width: 375px)" class="pic">
+      <img src="images/bg-section-top-desktop-1.svg" alt="Wavy design" class="first-wave">
+    </picture>
+    
+    <section class="section-2">
+      <figure>
+        <img src="images/illustration-grow-together.svg" alt="The people are discussing." class="section-2__img">
+      </figure>
+      <div class="section-content">
+        <h2 class="section-2__h2">Grow Together</h2>
+        <p class="section-2__p">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
+    </section>
+    
+    <picture>
+      <source srcset="images/bg-section-bottom-mobile-1.svg" media="(max-width: 375px)">
+      <img src="images/bg-section-bottom-desktop-1.svg" alt="Wavy design" class="first-wave-2">
+    </picture>
+    <!-- section-3 -->
+    
+    <section class="section-3">
+      <figure>
+        <img src="images/illustration-flowing-conversation.svg" alt="The people are at conversation.">
+      </figure>
+      <div class="section-content-3">
+        <h2 class="section-3__h2">Flowing Conversations</h2>
+        <p class="section-3__p">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+      </div>
+    </section>
+    <!-- section-4 -->
+    <picture>
+      <source srcset="images/bg-section-top-mobile-2.svg" media="(max-width: 375px)">
+      <img src="images/bg-section-top-desktop-2.svg" alt="Wavy design" class="section-top-2">
+    </picture>
+    <section class="section-4">
+      <figure>
+        <img src="images/illustration-your-users.svg" alt="dicussing with company.">
+      </figure>
+      <div class="section-content">
+        <h2 class="section-4__h2">Your Users</h2>
+        <p class="section-4__p">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+    </section>
+    <picture>
+      <source srcset="images/bg-section-bottom-mobile-2.svg" media="(max-width: 375px)">
+      <img src="images/bg-section-bottom-desktop-2.svg" alt="Wavy design" class="section-bottom-2">
+    </picture>
+    <!-- section-5 -->
+    <section class="section-5">
+      <h2 id="section-5__h2">Ready To Build Your Community?</h2>
+      <button class="button">Get Started For Free</button>
+    </section>
+  </main>
+  <!-- footer -->
+  <picture>
+    <source srcset="images/bg-footer-top-mobile.svg" media="(max-width: 375px)">
+    <img src="images/bg-footer-top-desktop.svg" alt="Wavy design" class="footer__top-img">
+  </picture>
+  <footer>
+    <div class="footer__subscribe">
+      <h3>Newsletter</h3>
+      <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
+      <form action="#" method="post">
+        <label for="email" class="visually-hidden">Email Address:</label>
+        <input type="email" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" id="email" placeholder="Enter your email...">
+        <button class="footer__button">Subscribe</button>
+      </form>
+    </div>
+    <div class="contact">
+      <div class="footer__address">
+        <img src="images/logo-2.svg" alt="logo for this website.">
+        <address class="address">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+          vestibulum a, ultrices quis sem.
+        </address>
+      </div>
+      
+      <div class="footer__contact">
+        <p class="footer__phone"><a href="tel:+1-543-123-4567"> Phone: +1-543-123-4567</a></p>
+        <p class="footer__email"><a href="mailto:example@huddle.com">example@huddle.com</a></p>
+      </div>
+      <div class="social-media">
+        <img src="images/icon-facebook.svg" alt="Facebook-logo">
+        <img src="images/icon-instagram.svg" alt="instagram-logo">
+        <img src="images/icon-twitter.svg" alt="twitter-logo">
+      </div>
+    </div>
+    
+    
+  </footer>
+
+  <!-- <div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </div> -->
+</body>
+</html>
